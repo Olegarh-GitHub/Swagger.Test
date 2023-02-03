@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger.Test</name>
+    </assembly>
+    <members>
+        <member name="M:Swagger.Test.Controllers.ActiveDirectoryUserController.GetUsers">
+            <summary>
+            Возвращает все доступные на домене учетные записи пользователей
+            </summary>
+            <returns><see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="M:Swagger.Test.Controllers.ActiveDirectoryUserController.GetComputers">
+            <summary>
+            Возвращает все доступные на домене учетные записи для компьютеров
+            </summary>
+            <returns><see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="M:Swagger.Test.Controllers.ActiveDirectoryUserController.GetUserWithDN(System.String)">
+            <summary>
+            Возвращает учетную запись пользователя с указанным DN
+            </summary>
+            <param name="dn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Swagger.Test.Controllers.ActiveDirectoryUserController.GetComputerWithNeededHost(System.String)">
+            <summary>
+            Возвращает компьютер с указанным именем хоста
+            </summary>
+            <param name="host">Имя хоста</param>
+        </member>
+    </members>
+</doc>
